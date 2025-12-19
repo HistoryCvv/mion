@@ -1,1 +1,45 @@
-vless://99ce2f8d-0119-4e92-b16a-48683f5012ef@5.188.140.156:8443?security=reality&encryption=none&pbk=tSiK_xTsdY3_oI4qqCWZwodTbrXmWl8IPTZbpIKiiiY&headerType=none&fp=random&allowinsecure=1&type=tcp&flow=xtls-rprx-vision&sni=sun6-22.userapi.com&sid=9d#%5BOpenRay%5D+%F0%9F%87%B7%F0%9F%87%BA+RU-3
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+proxies:
+  - name: "🇷🇺 Россия | VIP | 1Gbps"
+    type: vless
+    server: 5.188.1.100
+    port: 443
+    uuid: 99ce2f8d-0119-4e92-b16a-48683f5012ef
+    network: tcp
+    tls: true
+    servername: domain.com
+    flow: xtls-rprx-vision
+    udp: true
+  
+  - name: "🇺🇸 США | Безлимит | Netflix"
+    type: vless
+    server: 8.8.8.8
+    port: 443
+    uuid: 88aa3f9e-0228-5f83-c27b-59674g5123fg
+    network: ws
+    tls: true
+    servername: usa-domain.com
+    ws-opts:
+      path: /v2ray
+      headers:
+        Host: usa-domain.com
+
+proxy-groups:
+  - name: 🚀 Автовыбор
+    type: url-test
+    proxies:
+      - "🇷🇺 Россия | VIP | 1Gbps"
+      - "🇺🇸 США | Безлимит | Netflix"
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 🌍 Все серверы
+    type: select
+    proxies:
+      - "🇷🇺 Россия | VIP | 1Gbps"
+      - "🇺🇸 США | Безлимит | Netflix"
