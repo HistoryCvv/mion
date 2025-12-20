@@ -2,28 +2,26 @@
   "version": 1,
   "profile_options": {
     "hide_config": true,
-    "support_url": "https://t.me/your_channel",
-    "remote_config_url": "https://raw.githubusercontent.com/HistoryCvv/mion/refs/heads/main/sverv.json"
+    "user_info": {
+      "total": 1099511627776,
+      "used": 5368709120,
+      "expire": 1767128400
+    },
+    "support_url": "https://t.me/your_channel"
   },
   "outbounds": [
     {
       "type": "selector",
       "tag": "🚀 Выбор узла",
-      "outbounds": [
-        "⚡ Авто-выбор",
-        "🇩🇪 DE-2617 [Reality]"
-      ],
+      "outbounds": ["⚡ Авто-выбор", "🇩🇪 DE-2617 [Reality]"],
       "default": "⚡ Авто-выбор"
     },
     {
       "type": "urltest",
       "tag": "⚡ Авто-выбор",
-      "outbounds": [
-        "🇩🇪 DE-2617 [Reality]"
-      ],
+      "outbounds": ["🇩🇪 DE-2617 [Reality]"],
       "url": "https://cp.cloudflare.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50
+      "interval": "3m"
     },
     {
       "type": "vless",
@@ -46,14 +44,6 @@
           "short_id": "5540e44a53c3d01c"
         }
       }
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
     }
   ]
 }
