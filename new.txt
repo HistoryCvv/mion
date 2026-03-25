@@ -1,9 +1,9 @@
 #profile-title:🚀TOTAL VPN
 #profile-update-interval: 1
-#announce: последнее обновление серверов: 2026-03-25 / 19:46
+#announce: последнее обновление серверов: 2026-03-25 / 19:48
 # subscription-userinfo: upload=0; download=106300440576; total=1597727834112; expire=0
 # profile-web-page-url: https://t.me//durov
-#Date/Time: 2026-03-25 / 19:46 (Moscow)
+#Date/Time: 2026-03-25 / 19:48 (Moscow)
 #Количество: 1356
 
 vless://3d535e29-2383-4272-bee7-ae7b5a4b112f@176.122.25.50:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=img.yandex.ru&pbk=zwxb4S-XaRk54UpQmRoeA9VzK97kKLPaMEPVeQwG5zs&sid=1ece20fd609e&spx=%2F#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%5B%2ACIDR%5D
