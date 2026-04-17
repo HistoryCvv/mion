@@ -1,9 +1,9 @@
 # profile-title: 🚀 Mellstroy VPN
 # profile-update-interval: 1
-# announce: Обновлено: 2026-04-17 / 06:56 | Всего серверов: 69
+# announce: Обновлено: 2026-04-17 / 06:57 | Всего серверов: 69
 # subscription-userinfo: upload=0; download=0; total=536870912000; expire=0
 # support-url: https://t.me/durov
-# Date/Time: 2026-04-17 / 06:56 (Moscow)
+# Date/Time: 2026-04-17 / 06:57 (Moscow)
 # Количество: 69
 
 vless://19ef3d02-1c55-4fec-9794-6def8cbac396@87.239.111.174:5443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=i.oneme.ru&pbk=-nZqMxt7meVxfnQeK46MAYh5scb0M6La82axD8KHJXk&sid=91e2a4c7#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2AMELL%5D%20VK
