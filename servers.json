@@ -1,0 +1,30 @@
+[
+    {
+        "online": "20",
+        "maxonline": "1000",
+        "color": "FF0000",
+        "x2": "true",
+        "key": "1424",
+        "name": "ARZAMAS",
+        "firstname": "ARZAMAS",
+        "secondname": "",
+        "url": "arzamas.blackrussia.online",
+        "ip": "188.127.241.74",
+        "port": "3441"
+
+    },
+    {
+        "online": "20",
+        "maxonline": "1000",
+        "color": "FFFFFF",
+        "x2": "true",
+        "key": "1424",
+        "name": "DontNow",
+        "firstname": "NotNow",
+        "secondname": "",
+        "url": "volgograd.blackrussia.online",
+        "ip": "51.75.232.65",
+        "port": "1397"
+
+    }
+]
